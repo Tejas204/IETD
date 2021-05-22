@@ -1,5 +1,5 @@
 # IETD
-This repository contains the code for a novel image encryption technique using Tinkerbell and Duffing chaotic map.
+This repository contains the code for a novel image encryption technique using Tinkerbell and Duffing chaotic map. The analysis is also made available.
 
 Some important terminologies and variables:
 1. x: 1) Data structure: 1-D array
@@ -32,13 +32,10 @@ The following are the list of functions and their parameters:
 3. a. Function name: zigzag_scrambling
    b. Parameters: output of chaotic swapping
    c. Description: (1) The channels of the image are traversed in a zigzag manner, all the while, changing the position of the pixels, in order of the traversal.
-   
                    (2) The  function takes consideration the height and width of the image, and applies the conditions of traversal accordingly.
-                   
                    (3) The encrypted image is obtained after this function.
                    
-                   
-                
+                                
 4. a. Function name: zigzag_descrambling
    b. Parameters: encrypted image
    c. Description: (1) The channels of the image are traversed in a zigzag manner, all the while, changing the position of the pixels, in order of the traversal.
