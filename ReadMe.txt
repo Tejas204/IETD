@@ -55,3 +55,4 @@ The following are the list of functions and their parameters:
 6. a. Function name: chaotic_descrambling
    b. Parameters: output of chaotic_deswapping
    c. Description: Each pixel of the input image is XOR with the corresponding value in the "xor_array", generated from the chaotic maps.
+   d. The decrypted image is obtained after this function.
