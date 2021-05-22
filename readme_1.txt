@@ -32,9 +32,7 @@ The following are the list of functions and their parameters:
 3. a. Function name: zigzag_scrambling
    b. Parameters: output of chaotic swapping
    c. Description: (1) The channels of the image are traversed in a zigzag manner, all the while, changing the position of the pixels, in order of the traversal.
-   
                    (2) The  function takes consideration the height and width of the image, and applies the conditions of traversal accordingly.
-                   
                    (3) The encrypted image is obtained after this function.
                    
                    
