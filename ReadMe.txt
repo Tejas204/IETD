@@ -54,4 +54,4 @@ The following are the list of functions and their parameters:
    c. Description: Each pixel of the input image is XOR with the corresponding value in the "xor_array", generated from the chaotic maps.
    d. The decrypted image is obtained after this function.
    
-7. The link to the paper can be found [here](https://link.springer.com/article/10.1007/s11042-022-13162-x)
+7. The link to the paper can be found here: https://link.springer.com/article/10.1007/s11042-022-13162-x
