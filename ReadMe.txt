@@ -1,7 +1,7 @@
 # IETD
 This repository contains the code for a novel image encryption technique using Tinkerbell and Duffing chaotic map. The analysis is also made available.
 
-See the paper here: [IETD: a novel image encryption technique using Tinkerbell map and Duffing map for IoT applications](https://link.springer.com/article/10.1007/s11042-022-13162-x)
+See the paper here: https://link.springer.com/article/10.1007/s11042-022-13162-x
 
 Some important terminologies and variables:
 1. x: 1) Data structure: 1-D array
