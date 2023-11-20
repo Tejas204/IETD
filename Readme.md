@@ -8,15 +8,18 @@ See the paper here: https://link.springer.com/article/10.1007/s11042-022-13162-x
 The following are some important terminologies used in the implementation and the paper above.
 
 ## Terminologies
-1. x: 1) Data structure: 1-D array
-      2) Use: Contains first dimension of the TD chaotic map.
+1. x:
+- Data structure: 1-D array
+- Use: Contains first dimension of the TD chaotic map.
 
-2. y: 1) Data structure: 1-D array
-      2) Use: Contains second dimension of the TD chaotic map.
+3. y:
+- Data structure: 1-D array
+- Use: Contains second dimension of the TD chaotic map.
 
-3. xor_array: 1) Data structure: 1-D array
-              2) Creation: It is created by multiplying corresponding values from "x" and "y" array
-              3) Use: useful in the function named chaotic scrambling for XOR operation with corresponding pixel values.
+5. xor_array:
+- Data structure: 1-D array
+- Creation: It is created by multiplying corresponding values from "x" and "y" array
+- Use: useful in the function named chaotic scrambling for XOR operation with corresponding pixel values.
 
 
 
