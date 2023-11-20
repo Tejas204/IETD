@@ -9,17 +9,17 @@ The following are some important terminologies used in the implementation and th
 
 ### Terminologies
 1. **x**
-- Data structure: 1-D array
-- Use: Contains first dimension of the TD chaotic map.
+   - _Data structure:_ 1-D array
+   - Use: Contains first dimension of the TD chaotic map.
 
-3. **y**
-- Data structure: 1-D array
-- Use: Contains second dimension of the TD chaotic map.
+2. **y**
+   - _Data structure:_ 1-D array
+   - _Use:_ Contains second dimension of the TD chaotic map.
 
-5. **xor_array**
-- Data structure: 1-D array
-- Creation: It is created by multiplying corresponding values from "x" and "y" array
-- Use: useful in the function named chaotic scrambling for XOR operation with corresponding pixel values.
+3. **xor_array**
+   - _Data structure:_ 1-D array
+   - _Creation:_ It is created by multiplying corresponding values from "x" and "y" array
+   - _Use:_ useful in the function named chaotic scrambling for XOR operation with corresponding pixel values.
 
 ### Functions and Parameters
 The following are the list of functions and their parameters:
