@@ -8,57 +8,50 @@ See the paper here: https://link.springer.com/article/10.1007/s11042-022-13162-x
 The following are some important terminologies used in the implementation and the paper above.
 
 ## Terminologies
-1. x:
+1. **x**
 - Data structure: 1-D array
 - Use: Contains first dimension of the TD chaotic map.
 
-3. y:
+3. **y**
 - Data structure: 1-D array
 - Use: Contains second dimension of the TD chaotic map.
 
-5. xor_array:
+5. **xor_array**
 - Data structure: 1-D array
 - Creation: It is created by multiplying corresponding values from "x" and "y" array
 - Use: useful in the function named chaotic scrambling for XOR operation with corresponding pixel values.
 
-
-
 ## Functions and Parameters
 The following are the list of functions and their parameters:
 
-1. a. Function name: chaotic_scrambling
-   b. Parameters: input image
-   c. Description: Each pixel value of the input image is XOR with the corresponding value in the "xor_array", generated from the chaotic maps.
+1. **_chaotic_scrambling_**
+   - _Parameters:_ input image
+   - _Description:_ Each pixel value of the input image is XOR with the corresponding value in the "xor_array", generated from the chaotic maps.
    
    
    
-2. a. Function name: chaotic_swapping
-   b. Parameters: output of chaotic_scrambling  
-   c. Description: Each pixel of the image received from chaotic_scrambling is swapped with the pixel value present at the location x[i]y[i]
+2. **_chaotic_swapping_**
+   - _Parameters:_ output of chaotic_scrambling
+   - _Description:_ Each pixel of the image received from chaotic_scrambling is swapped with the pixel value present at the location x[i]y[i]
    
    
    
-3. a. Function name: zigzag_scrambling
-   b. Parameters: output of chaotic swapping
-   c. Description: (1) The channels of the image are traversed in a zigzag manner, all the while, changing the position of the pixels, in order of the traversal.
-                   (2) The  function takes consideration the height and width of the image, and applies the conditions of traversal accordingly.
-                   (3) The encrypted image is obtained after this function.
+3. **_zigzag_scrambling_**
+   - _Parameters:_ output of chaotic swapping
+   - _Description:_ The channels of the image are traversed in a zigzag manner, all the while, changing the position of the pixels, in order of the traversal. The  function takes consideration the height and width of the image, and applies the conditions of traversal accordingly. The encrypted image is obtained after this function.
                    
                                 
-4. a. Function name: zigzag_descrambling
-   b. Parameters: encrypted image
-   c. Description: (1) The channels of the image are traversed in a zigzag manner, all the while, changing the position of the pixels, in order of the traversal.
-                   (2) The order of traversal is reverse of zigzag_scrambling.
-                   (3) The  function takes consideration the height and width of the image, and applies the conditions of traversal accordingly.
+4. **_zigzag_descrambling_**
+   - _Parameters:_ encrypted image
+   - _Description:_ The channels of the image are traversed in a zigzag manner, all the while, changing the position of the pixels, in order of the traversal. The order of traversal is reverse of zigzag_scrambling. The  function takes consideration the height and width of the image, and applies the conditions of traversal accordingly.
                    
                    
-5. a. Function name: chaotic_deswapping
-   b. Parameters: output of zigzag_descrambling 
-   c. Description: Each pixel of the image received from zigzag_descrambling is swapped with the pixel value present at the location x[i]y[i], but in the reverse order.
+5. **_chaotic_deswapping_**
+   - _Parameters:_ output of zigzag_descrambling
+   - _Description:_ Each pixel of the image received from zigzag_descrambling is swapped with the pixel value present at the location x[i]y[i], but in the reverse order.
    
    
    
-6. a. Function name: chaotic_descrambling
-   b. Parameters: output of chaotic_deswapping
-   c. Description: Each pixel of the input image is XOR with the corresponding value in the "xor_array", generated from the chaotic maps.
-   d. The decrypted image is obtained after this function.
+6. **_chaotic_descrambling_**
+   - _Parameters:_ output of chaotic_deswapping
+   - _Description:_ Each pixel of the input image is XOR with the corresponding value in the "xor_array", generated from the chaotic maps.The decrypted image is obtained after this function.
