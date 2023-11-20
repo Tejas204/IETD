@@ -7,7 +7,7 @@ See the paper here: https://link.springer.com/article/10.1007/s11042-022-13162-x
 ## Technical Details
 The following are some important terminologies used in the implementation and the paper above.
 
-## Terminologies
+### Terminologies
 1. **x**
 - Data structure: 1-D array
 - Use: Contains first dimension of the TD chaotic map.
@@ -21,7 +21,7 @@ The following are some important terminologies used in the implementation and th
 - Creation: It is created by multiplying corresponding values from "x" and "y" array
 - Use: useful in the function named chaotic scrambling for XOR operation with corresponding pixel values.
 
-## Functions and Parameters
+### Functions and Parameters
 The following are the list of functions and their parameters:
 
 1. **_chaotic_scrambling_**
