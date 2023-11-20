@@ -1,9 +1,13 @@
-# IETD
+## IETD
 This repository contains the code for a novel image encryption technique using Tinkerbell and Duffing chaotic map. The analysis is also made available.
 
+## Research Paper
 See the paper here: https://link.springer.com/article/10.1007/s11042-022-13162-x
 
-Some important terminologies and variables:
+## Technical Details
+The following are some important terminologies used in the implementation and the paper above.
+
+## Terminologies
 1. x: 1) Data structure: 1-D array
       2) Use: Contains first dimension of the TD chaotic map.
 
@@ -16,7 +20,7 @@ Some important terminologies and variables:
 
 
 
-
+## Functions and Parameters
 The following are the list of functions and their parameters:
 
 1. a. Function name: chaotic_scrambling
